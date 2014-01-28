@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7F9D62189863AB00D90A3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9D61189863AB00D90A3F /* main.cpp */; };
+		CE7F9D64189863AB00D90A3F /* PaintCube.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE7F9D63189863AB00D90A3F /* PaintCube.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7F9D5C189863AB00D90A3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CE7F9D64189863AB00D90A3F /* PaintCube.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE7F9D5E189863AB00D90A3F /* PaintCube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PaintCube; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7F9D61189863AB00D90A3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE7F9D63189863AB00D90A3F /* PaintCube.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PaintCube.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7F9D5B189863AB00D90A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7F9D55189863AB00D90A3F = {
+			isa = PBXGroup;
+			children = (
+				CE7F9D60189863AB00D90A3F /* PaintCube */,
+				CE7F9D5F189863AB00D90A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7F9D5F189863AB00D90A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F9D5E189863AB00D90A3F /* PaintCube */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7F9D60189863AB00D90A3F /* PaintCube */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F9D61189863AB00D90A3F /* main.cpp */,
+				CE7F9D63189863AB00D90A3F /* PaintCube.1 */,
+			);
+			path = PaintCube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7F9D5D189863AB00D90A3F /* PaintCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7F9D67189863AB00D90A3F /* Build configuration list for PBXNativeTarget "PaintCube" */;
+			buildPhases = (
+				CE7F9D5A189863AB00D90A3F /* Sources */,
+				CE7F9D5B189863AB00D90A3F /* Frameworks */,
+				CE7F9D5C189863AB00D90A3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintCube;
+			productName = PaintCube;
+			productReference = CE7F9D5E189863AB00D90A3F /* PaintCube */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7F9D56189863AB00D90A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paul Wright";
+			};
+			buildConfigurationList = CE7F9D59189863AB00D90A3F /* Build configuration list for PBXProject "PaintCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE7F9D55189863AB00D90A3F;
+			productRefGroup = CE7F9D5F189863AB00D90A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7F9D5D189863AB00D90A3F /* PaintCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7F9D5A189863AB00D90A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7F9D62189863AB00D90A3F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE7F9D65189863AB00D90A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE7F9D66189863AB00D90A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE7F9D68189863AB00D90A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE7F9D69189863AB00D90A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7F9D59189863AB00D90A3F /* Build configuration list for PBXProject "PaintCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7F9D65189863AB00D90A3F /* Debug */,
+				CE7F9D66189863AB00D90A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7F9D67189863AB00D90A3F /* Build configuration list for PBXNativeTarget "PaintCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7F9D68189863AB00D90A3F /* Debug */,
+				CE7F9D69189863AB00D90A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7F9D56189863AB00D90A3F /* Project object */;
+}
